@@ -1,61 +1,69 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# Challenge Template
+# JavaScript Errors and Debugging
 
-Use this template to structure your READMEs for diagnostics.
+Two of the most common challenges developers face are debugging and dealing with
+errors. This is especially true for junior developers like yourself. The goal
+of this lab is to give you exposure to some of the most common JavaScript errors
+and what causes them.
 
-Be sure to include a recent [`LICENSE`](LICENSE) and Markdown linter
-configuration ([`.remarkrc`](.remarkrc)). Also, include an appropriate
-`.gitignore`; these are usually found in specific technology templates, for
-example [js-template](https://www.github.com/ga-wdi-boston/js-template).
+Errors and bugs can have a variety of causes. For example,
+
+- Missing an important piece of syntax (like `]`, `)`, `,`).
+- Inaccurate access of an object property or an item in an array.
+- Inaccurate or incomplete logic.
+- Incorrect usage of a method.
+
+Regardless of the cause, JavaScript will throw an error with a message
+explaining (as best it can) what the cause is. Interpreting these messages is a
+learned skill, one you have the opportunity to practice with this lab!
 
 ## Prerequisites
 
--   Topics with which developers should be familiar with.
--   Prerequisites are "just-in-time", so if I have a prerequisite that mentions
-    Sass, I would **not** need to include CSS as a prerequisite.
--   [Links to previous materials](https://www.github.com/ga-wdi-boston/example)
-    are often useful.
--   In a challenge, it is useful to link to reference material, such as talk
-    repositories.
+- JavaScript data types and control flow
+- Working with JavaScript objects and arrays
+- JavaScript functions and methods
+- Array methods and callbacks
 
 ## Instructions
 
-1.  Fork and clone this repository.
-1.  Change into the new directory.
-1.  Install dependencies.
-1.  Create and checkout a new branch to work on.
-1.  Fulfill the listed requirements.
+1. Fork and clone this repository.
+1. Change into the new directory.
+1. Work through the prompts in [`lib/errors.md`](lib/errors.md) and make a
+   commit after completing each prompt.
+1. Turn in the lab via a pull request.
 
-Starter code is available in [`lib/challenge.js`](lib/challenge.js). A pull
-request is not required, but it is necessary if you want a code review.
-
-You may wish to refer to [FAQs](https://github.com/ga-wdi-boston/meta/wiki/)
-related to [forking,
-cloning](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone).
+Starter code is available in [`lib/`](lib/). A pull request is required for the
+lab to be considered complete and turned in.
 
 ## Requirements
 
-Describe behavioral requirements as you'll be using them in tests. That is,
-list requirements in language that describes how the written code will be used,
-not how it will be written, with the exception of constraints you may wish to
-place on implementation. It's a good idea to include the below paragraph
-verbatim.
+This lab contains 10 prompts inside [`lib/errors.md`](lib/errors.md). Each
+prompt includes a short snippet of JavaScript code that has an error or bug in
+it. Your task is to review the code and the error it creates, then determine
+what the cause of the error and how you can fix it.
 
-You should be running `grunt nag` before diagnosing any bugs, since it finds
-some of the most common sources of errors. After `grunt nag` passes, you should
-run `grunt test` to run the included tests. Tests will tell you whether of not
-you've met these requirements.
+Each prompt asks three questions:
+
+A. What is the error message?
+B. What is causing the error?
+C. How can you resolve/fix the error?
+
+Write your answers inside of [`lib/errors.md`](lib/errors.md). Your answers can
+be written or you can provide a fixed code snippet. Make a commit after each
+prompt. Then turn your lab in with a pull request on this repository
+
+We've provided an html file inside of `lib/` that you can use to test out the
+code. Add each code snippet to the html file and review it in the browser.
+
+**Please format your responses in Markdown. Use [this cheetsheat](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet) to see how to do so**
 
 ## Bonus
 
-Bonuses are described after the requirements, if included. They should be worked
-on **only after** passing requirements.
-
-Sometimes, we ask questions that promote thinking critically about code.
+If you finish with these 10 bugs, explore some of the [debugging Katas](https://www.codewars.com/kata/search/javascript?q=&r%5B%5D=-8&r%5B%5D=-7&r%5B%5D=-6&tags=Bugs&beta=false) on Code Wars.
 
 ## [License](LICENSE)
 
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
-    alternative licensing, please contact legal@ga.co.
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+1. All software code is licensed under GNU GPLv3. For commercial use or
+   alternative licensing, please contact legal@ga.co.
