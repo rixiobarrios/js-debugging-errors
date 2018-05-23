@@ -14,9 +14,9 @@ Errors and bugs can have a variety of causes. For example,
 - Inaccurate or incomplete logic.
 - Incorrect usage of a method.
 
-Regardless of the cause, JavaScript will throw an error with a message
-explaining (as best it can) what the cause is. Interpreting these messages is a
-learned skill, one you have the opportunity to practice with this lab!
+JavaScript will throw an error with a message explaining (as best it can) what
+the cause is. Interpreting these messages is a learned skill, one you have the
+opportunity to practice with this lab!
 
 ## Prerequisites
 
@@ -40,18 +40,18 @@ lab to be considered complete and turned in.
 
 This lab contains 10 prompts inside [`lib/errors.md`](lib/errors.md). Each
 prompt includes a short snippet of JavaScript code that has an error or bug in
-it. Your task is to review the code and the error it creates, then determine
-what the cause of the error and how you can fix it.
+it. Your task is to review the code and the error it creates, then determine the
+cause of the error and how you can fix it.
 
 Each prompt asks three questions:
 
-A. What is the error message?
-B. What is causing the error?
-C. How can you resolve/fix the error?
+1. What is the error message?
+1. What is causing the error?
+1. How can you resolve/fix the error?
 
 Write your answers inside of [`lib/errors.md`](lib/errors.md). Your answers can
 be written or you can provide a fixed code snippet. Make a commit after each
-prompt. Then turn your lab in with a pull request on this repository
+prompt. Then turn your lab in with a pull request on this repository.
 
 We've provided an html file inside of `lib/` that you can use to test out the
 code. Add each code snippet to the html file and review it in the browser.

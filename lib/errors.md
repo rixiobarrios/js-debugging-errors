@@ -1,7 +1,7 @@
 # JavaScript Errors and Debugging
 
 Each code snippet below throws an error. Your task is to determine (a) what is
-the error message, (b) what is causing the error message and (c) how to resolve or fix the error.
+the error message, (b) what is causing the error message and (c) how to resolve or fix the error?
 
 ## Errors
 
@@ -150,7 +150,7 @@ B. What is causing the error?
 
 C. How can you resolve/fix the error?
 
-### Prompt #1
+### Prompt #8
 
 We're trying to make it so that when we call the `greet` method of `person`, an
 alert appears with the person's full name. But for some reason, it's not working
@@ -180,7 +180,7 @@ B. What is causing the error?
 
 C. How can you resolve/fix the error?
 
-### Prompt #1
+### Prompt #9
 
 We're trying to implement the [Fibonacci Sequence](https://en.wikipedia.org/wiki/Fibonacci_number). But for some reason,
 it's not working ...
@@ -217,9 +217,9 @@ B. What is causing the error?
 
 C. How can you resolve/fix the error?
 
-### Prompt #1
+### Prompt #10
 
-We're trying to make a functioning counter object. But for some reason, it's not
+We're trying to make a working counter object. But for some reason, it's not
 working ...
 
 ```html
@@ -263,9 +263,9 @@ B. What is causing the error?
 
 C. How can you resolve/fix the error?
 
-### Prompt #1
+### Prompt #11
 
-We're trying to print the string `'hello world`. But for some reason, it's not
+We're trying to print the string `"hello world"`. But for some reason, it's not
 working ...
 
 ```html
@@ -277,7 +277,7 @@ let obj = {
         doopati: [
           [
             {
-              do: "hello world"
+              do: ["good by cruel world", "hello world", "goodnight moon"]
             }
           ]
         ]
@@ -286,7 +286,7 @@ let obj = {
   ]
 }
 
-let message = obj[0].oompa.loompa[0].doopati.do[0]
+let message = obj[0].oompa.loompa[0].doopati.do[2]
 console.log(message)
 </script>
 ```
