@@ -53,6 +53,8 @@ Write your answers inside of [`lib/errors.md`](lib/errors.md). Your answers can
 be written or you can provide a fixed code snippet. Make a commit after each
 prompt. Then turn your lab in with a pull request on this repository.
 
+Please do not change the original broken code block in the prompts, make the correctins in the "How can you resolve/fix the error?" section.
+
 We've provided an html file inside of `lib/` that you can use to test out the
 code. Add each code snippet to the html file and review it in the browser.
 
