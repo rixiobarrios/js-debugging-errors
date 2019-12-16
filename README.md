@@ -27,14 +27,10 @@ opportunity to practice with this lab!
 
 ## Instructions
 
-1. Fork and clone this repository.
+1. Download this repository to your computer.
 1. Change into the new directory.
-1. Work through the prompts in [`lib/errors.md`](lib/errors.md) and make a
-   commit after completing each prompt.
-1. Turn in the lab via a pull request.
+1. Work through the prompts in [`lib/errors.md`](lib/errors.md).
 
-Starter code is available in [`lib/`](lib/). A pull request is required for the
-lab to be considered complete and turned in.
 
 ## Requirements
 
@@ -60,9 +56,9 @@ code. Add each code snippet to the html file and review it in the browser.
 
 **Please format your responses in Markdown. Use [this cheetsheat](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet) to see how to do so**
 
-## Bonus
+## Hungry for More?
 
-If you finish with these 10 bugs, explore some of the [debugging Katas](https://www.codewars.com/kata/search/javascript?q=&r%5B%5D=-8&r%5B%5D=-7&r%5B%5D=-6&tags=Bugs&beta=false) on Code Wars.
+If you finish with these 10 bugs, explore some of the [debugging Katas](https://www.codewars.com/kata/search/javascript?q=&r%5B%5D=-8&r%5B%5D=-7&r%5B%5D=-6&tags=Bugs&beta=false) on Code Wars. First make sure to create a Code Wars account (you can log in via GitHub) to track your progress!!
 
 ## [License](LICENSE)
 
