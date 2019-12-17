@@ -48,7 +48,7 @@ C. How can you resolve/fix the error?
 
 ### Prompt 3
 
-We're trying to concatenate these two strings together. But for some reasons,
+We're trying to concatenate these two strings together. But for some reason,
 it's not working ...
 
 ```html

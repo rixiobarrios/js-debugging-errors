@@ -14,7 +14,7 @@ Errors and bugs can have a variety of causes. For example,
 - Inaccurate or incomplete logic.
 - Incorrect usage of a method.
 
-JavaScript will throw an error with a message explaining (as best it can) what
+JavaScript will throw an error to the console with a message explaining (as best it can) what
 the cause is. Interpreting these messages is a _learned skill_, one you will have the
 opportunity to practice in this lab!
 
@@ -38,12 +38,12 @@ opportunity to practice in this lab!
 
 ## Requirements
 
-This lab contains 10 prompts inside [`lib/errors.md`](lib/errors.md). Each
+This lab contains 11 prompts inside [`lib/errors.md`](lib/errors.md). Each
 prompt includes a short snippet of JavaScript code that has an error or bug in
 it. Your task is to review the code and the error it creates, then determine the
 cause of the error and how you can fix it.
 
-For the purposes of this lab, focus on using the console to log messages. If you would like to go above and beyond, consider using Chrome or VS Code's built-in debuggers.
+For the purposes of this lab, focus on using the console to log messages. Cut and paste the code between the `script` tags in `lib/errors.md` in between the script tags of your `lib/index.html` file.
 
 Each prompt asks three questions:
 
@@ -56,11 +56,11 @@ be written or you can provide a fixed code snippet.
 
 Please do not change the original broken code block in the prompts. Make the corrections in the "How can you resolve/fix the error?" section.
 
-**Please format your responses in Markdown. Use [this cheetsheat](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet) to see how to do so**
+**Please format your responses in Markdown. If you would like, see [this cheetsheat](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet) to see how to do add additional formatting beyond plain text.**
 
 ## Hungry for More?
 
-If you finish with these 10 bugs, explore some of the [debugging Katas](https://www.codewars.com/kata/search/javascript?q=&r%5B%5D=-8&r%5B%5D=-7&r%5B%5D=-6&tags=Bugs&beta=false) on Code Wars. Make sure to create a Code Wars account (you can log in via GitHub) to track your progress.
+If you finish with these 11 bugs and would like more challenges, explore some of the specifically [debugging Katas](https://www.codewars.com/kata/search/javascript?q=&r%5B%5D=-8&r%5B%5D=-7&r%5B%5D=-6&tags=Bugs&beta=false) on Code Wars. Make sure to create a Code Wars account (you can log in via GitHub) to track your progress on the site, as it is a great outside resource.
 
 If you would like practice using Chrome and/or VS Code's built-in debugger, go back and try debugging the broken code with those tools.
 
