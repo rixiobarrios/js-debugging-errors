@@ -54,15 +54,15 @@ Each prompt asks three questions:
 Write your answers inside of [`lib/errors.md`](lib/errors.md). Your answers can
 be written or you can provide a fixed code snippet.
 
-Please do not change the original broken code block in the prompts. Make the corrections in the "How can you resolve/fix the error?" section.
+Please do not change the original broken code block in the prompts. Make the corrections in the "How can you resolve/fix the error?" section for each prompt.
 
-**Please format your responses in Markdown. If you would like, see [this cheetsheat](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet) to see how to do add additional formatting beyond plain text.**
+Your responses will go in the `errors.md` file. 'md' stands for Markdown. If you are interested in learning more about Markdown styling, see [this cheat-sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet) to see how to add additional formatting beyond plain text.
 
 ## Hungry for More?
 
-If you finish with these 11 bugs and would like more challenges, explore some of the specifically [debugging Katas](https://www.codewars.com/kata/search/javascript?q=&r%5B%5D=-8&r%5B%5D=-7&r%5B%5D=-6&tags=Bugs&beta=false) on Code Wars. Make sure to create a Code Wars account (you can log in via GitHub) to track your progress on the site, as it is a great outside resource.
+If you finish with these 11 bugs and would like more challenges, explore some of the debugging-specific [Katas](https://www.codewars.com/kata/search/javascript?q=&r%5B%5D=-8&r%5B%5D=-7&r%5B%5D=-6&tags=Bugs&beta=false) on Code Wars. Make sure to create a Code Wars account (you can log in via GitHub) to track your progress on the site, as it is a great outside resource.
 
-If you would like practice using Chrome and/or VS Code's built-in debugger, go back and try debugging the broken code with those tools.
+If you would like practice using Chrome and/or VS Code's built-in debugger, go back and try debugging the broken code with those tools. To debug with VS Code, you will need to create a separate JavaScript file in `lib` to run your debugger.
 
 ## [License](LICENSE)
 
