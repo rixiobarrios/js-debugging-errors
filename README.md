@@ -15,22 +15,26 @@ Errors and bugs can have a variety of causes. For example,
 - Incorrect usage of a method.
 
 JavaScript will throw an error with a message explaining (as best it can) what
-the cause is. Interpreting these messages is a learned skill, one you have the
-opportunity to practice with this lab!
+the cause is. Interpreting these messages is a _learned skill_, one you will have the
+opportunity to practice in this lab!
 
 ## Prerequisites
 
 - JavaScript data types and control flow
 - Working with JavaScript objects and arrays
 - JavaScript functions and methods
-- Array methods and callbacks
+- Array methods
 
 ## Instructions
 
 1. Download this repository to your computer.
 1. Change into the new directory.
 1. Work through the prompts in [`lib/errors.md`](lib/errors.md).
+1. We've provided an html file inside of `lib/` that you can use to test out the
+   code. Cut and paste each code snippet to the html file and review the results in the browser.
+1. Provide your answers to the questions below in the `errors.md` file.
 
+> Remember that we will not be turning in labs to be graded, so there is no need to fork and clone this directory.
 
 ## Requirements
 
@@ -39,6 +43,8 @@ prompt includes a short snippet of JavaScript code that has an error or bug in
 it. Your task is to review the code and the error it creates, then determine the
 cause of the error and how you can fix it.
 
+For the purposes of this lab, focus on using the console to log messages. If you would like to go above and beyond, consider using Chrome or VS Code's built-in debuggers.
+
 Each prompt asks three questions:
 
 1. What is the error message?
@@ -46,19 +52,17 @@ Each prompt asks three questions:
 1. How can you resolve/fix the error?
 
 Write your answers inside of [`lib/errors.md`](lib/errors.md). Your answers can
-be written or you can provide a fixed code snippet. Make a commit after each
-prompt. Then turn your lab in with a pull request on this repository.
+be written or you can provide a fixed code snippet.
 
-Please do not change the original broken code block in the prompts, make the correctins in the "How can you resolve/fix the error?" section.
-
-We've provided an html file inside of `lib/` that you can use to test out the
-code. Add each code snippet to the html file and review it in the browser.
+Please do not change the original broken code block in the prompts. Make the corrections in the "How can you resolve/fix the error?" section.
 
 **Please format your responses in Markdown. Use [this cheetsheat](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet) to see how to do so**
 
 ## Hungry for More?
 
-If you finish with these 10 bugs, explore some of the [debugging Katas](https://www.codewars.com/kata/search/javascript?q=&r%5B%5D=-8&r%5B%5D=-7&r%5B%5D=-6&tags=Bugs&beta=false) on Code Wars. First make sure to create a Code Wars account (you can log in via GitHub) to track your progress!!
+If you finish with these 10 bugs, explore some of the [debugging Katas](https://www.codewars.com/kata/search/javascript?q=&r%5B%5D=-8&r%5B%5D=-7&r%5B%5D=-6&tags=Bugs&beta=false) on Code Wars. Make sure to create a Code Wars account (you can log in via GitHub) to track your progress.
+
+If you would like practice using Chrome and/or VS Code's built-in debugger, go back and try debugging the broken code with those tools.
 
 ## [License](LICENSE)
 
